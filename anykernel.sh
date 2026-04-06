@@ -1,15 +1,12 @@
 # AnyKernel3 Ramdisk Mod Script
 # osm0sis @ xda-developers
 
-ui_print " "
-ui_print " • Kernel Source Used By @Sky_Techyon • "
-ui_print " • Kernel Build By S20 Series @Mian Hamza • "
-ui_print " "
+
 
 ## AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=not
+kernel.string=Astro_Core
 do.devicecheck=1
 do.modules=0
 do.systemless=1
@@ -39,7 +36,10 @@ set_perm_recursive 0 0 755 644 $ramdisk/*;
 set_perm_recursive 0 0 750 750 $ramdisk/init* $ramdisk/sbin;
 
 ## AnyKernel boot install
-
+ui_print " "
+ui_print " • Kernel Source Used By @Sky_Techyon • "
+ui_print " • Kernel Build By S20 Series @Mian Hamza • "
+ui_print " "
 ui_print " "
 ui_print " • Spliting boot image... • "
 
