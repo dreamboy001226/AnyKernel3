@@ -1,6 +1,11 @@
 # AnyKernel3 Ramdisk Mod Script
 # osm0sis @ xda-developers
 
+ui_print " "
+ui_print " • Kernel Source Used By @Sky_Techyon • "
+ui_print " • Kernel Build By S20 Series @Mian Hamza • "
+ui_print " "
+
 ## AnyKernel setup
 # begin properties
 properties() { '
