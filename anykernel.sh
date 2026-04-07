@@ -36,7 +36,7 @@ set_perm_recursive 0 0 750 750 $ramdisk/init* $ramdisk/sbin;
 ## AnyKernel boot install
 ui_print " "
 ui_print " • Kernel Source Used By @Sky_Techyon • "
-ui_print " • Kernel Build By S20 Series @Mian Hamza • "
+ui_print " • Kernel Build By Note 20 Series @Mian Hamza • "
 ui_print " "
 ui_print " "
 ui_print " "
